@@ -185,7 +185,7 @@ SUCCESS() {
 
   echo -e "---------管理员信息--------"
   echo -e "用户名：admin"
-  echo -e "密码：spb123"
+  echo -e "密码：admin"
   echo -e "--------------------------"
 
   echo -e "启动服务中"
@@ -239,7 +239,7 @@ UPDATE() {
     fi
     echo -e "---------管理员信息--------"
     echo -e "用户名：admin"
-    echo -e "密码：spb123"
+    echo -e "密码：admin"
     echo -e "--------------------------"
     echo -e "\r\n${GREEN_COLOR}启动 filebrowser 进程${RES}"
     systemctl start filebrowser
