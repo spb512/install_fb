@@ -150,8 +150,8 @@ INIT() {
   $INSTALL_PATH/filebrowser -d $INSTALL_PATH/filebrowser.db config set --locale zh-cn
   #设置日志文件位置
   $INSTALL_PATH/filebrowser -d $INSTALL_PATH/filebrowser.db config set --log /var/log/filebrowser.log
-  #设置根路径
-  $INSTALL_PATH/filebrowser -d $INSTALL_PATH/filebrowser.db config set --root /data/Downloads
+  #设置根路径和aria2下载路径一致
+  $INSTALL_PATH/filebrowser -d $INSTALL_PATH/filebrowser.db config set --root /root/Downloads
   #添加用户
   $INSTALL_PATH/filebrowser -d $INSTALL_PATH/filebrowser.db users add admin admin --perm.admin
 
